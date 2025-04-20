@@ -32,7 +32,7 @@ This app allows users to calculate their Body Mass Index (BMI) by entering their
 
 ## 📷 Screenshots
 
-*(Include screenshots or gifs to showcase the app UI)*
+**Currently none**
 
 ## 🚀 Getting Started
 
