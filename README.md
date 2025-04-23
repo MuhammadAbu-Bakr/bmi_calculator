@@ -39,7 +39,7 @@ This app allows users to calculate their Body Mass Index (BMI) by entering their
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/your-username/flutter-bmi-calculator.git
+git clone https://github.com/MuhammadAbu-Bakr/bmi_calculator
 cd flutter-bmi-calculator
 flutter pub get
 flutter run
