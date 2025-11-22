@@ -21,17 +21,22 @@
             <div class="flex">
                 <section>
                     <h4>BMI Calculator</h4>
-                    <form action="">
+                    <form action="" id="calculator">
                         <div class="btn-box">
                             <button type="button" id="btnStandard" onclick="cickBtn(this)" class="btn">Standard</button>
                             <button type="button" id="btnMetric" onclick="cickBtn(this)" class="btn">Metric</button>
                         </div>
-                        <div>
-                            <h4>Height</h4>
-                            <div></div>
-                            <h4>Weight</h4>
-                            <div></div>
+                        <div class="Calculator">
+                            <div class="logicbox">
+                                <h4>Height: </h4>
+                                <div id="heightLogic"></div>
+                            </div>
+                            <div class="logicbox">
+                                <h4>Weight: </h4>
+                                <div id="weightLogic"></div>
+                            </div>
                         </div>
+                        <button type="submit" onclick="calculate(this)" id="calculate">Calculate</button>
                     </form> 
                 </section>
                 <section>       

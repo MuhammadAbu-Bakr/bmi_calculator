@@ -18,12 +18,12 @@ header h1{
     margin: 0;
 
     padding: 10px 30px;
-    border: 0px solid aqua;
+    border: 0px ;
     color: black;
    
 }
 .btn-box{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
 }
 .btn:hover{
@@ -35,4 +35,17 @@ section{
     padding: 20px;
     border: 2px outset ;
     border-radius: 5%;
+}
+
+.logicbox{
+    display: flex;
+}
+.calculator{
+
+}
+@media(max-width: 768px){
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
 }
