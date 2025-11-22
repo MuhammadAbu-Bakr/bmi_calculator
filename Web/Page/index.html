@@ -12,24 +12,25 @@
         <h1>Body Mass Index Calculator</h1>
     </header>
     <main>
-        <article>
-            <h2>Calculate Your BMI</h2>
+
+        <section>
+            <article>
+                <h2>Calculate Your BMI</h2>
             <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. Your BMI is just one piece of the puzzle. It’s based on height and weight but doesn’t take into account your muscle mass, bone density, or body composition. Your healthcare provider will consider whether your BMI is too high or too low for you.</p>
         </article>
-        <section>
             <div class="flex">
                 <section>
+                    <h4>BMI Calculator</h4>
                     <form action="">
                         <div class="btn-box">
-                        <button type="button" onclick="" class="btn">Standard</button>
-                        <button type="button" class="btn">Metric</button>
+                            <button type="button" id="btnStandard" onclick="cickBtn(this)" class="btn">Standard</button>
+                            <button type="button" id="btnMetric" onclick="cickBtn(this)" class="btn">Metric</button>
                         </div>
                         <div>
                             <h4>Height</h4>
                             <div></div>
                             <h4>Weight</h4>
                             <div></div>
-                            
                         </div>
                     </form> 
                 </section>

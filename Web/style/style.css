@@ -16,7 +16,7 @@ header h1{
 }
 .btn{
     margin: 0;
-    border-radius: 2px;
+
     padding: 10px 30px;
     border: 0px solid aqua;
     color: black;
@@ -29,4 +29,10 @@ header h1{
 .btn:hover{
     background-color: aqua;
 
+}
+section{
+    margin: 20px;
+    padding: 20px;
+    border: 2px outset ;
+    border-radius: 5%;
 }
