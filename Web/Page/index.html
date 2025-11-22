@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../style/style.css">
+    <link rel="icon" type="png" href="../assets/logo.png" >
 </head>
 <body>
     <header>
@@ -12,12 +13,15 @@
     </header>
     <main>
         <section>
-            <h2>BMI Calculator</h2>
+            <h2>Calculate Your BMI</h2>
+            <p>Body mass index (BMI) is a measure of body fat based on height and weight that applies to adult men and women. Your BMI is just one piece of the puzzle. It’s based on height and weight but doesn’t take into account your muscle mass, bone density, or body composition. Your healthcare provider will consider whether your BMI is too high or too low for you.</p>
+        </section>
+        <section class="flex">
             <div>
                 <form action="">
-                    <div>
-                    <button type="button" onclick="">Standard</button>
-                    <button type="button">Metric</button>
+                    <div class="btn-box">
+                    <button type="button" onclick="" class="btn">Standard</button>
+                    <button type="button" class="btn">Metric</button>
                     </div>
                     <div>
                         <h4>Height</h4>
@@ -26,42 +30,42 @@
                     </div>
                 </form>
             </div>
-        </section>
-        <section>
-            <table>
-                <thead>
-                    <tr>
-                        <th colspan="2">BMI Categories</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th></th>
-                        <th></th>
-                    </tr>
-                    <tr>
-                        <td>Under Weight</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Healthy Weight</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Over Weight</td>
-                        <td></td>
-                    </tr>
-                    <tr>
-                        <td>Obese</td>
-                        <td></td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="2"></td>
-                    </tr>
-                </tfoot>
-            </table>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th colspan="2">BMI Categories</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>BMI Category</th>
+                            <th>BMI Range</th>
+                        </tr>
+                        <tr>
+                            <td>Under Weight</td>
+                            <td>Below 18.5</td>
+                        </tr>
+                        <tr>
+                            <td>Healthy Weight</td>
+                            <td>18.5 – 24.9</td>
+                        </tr>
+                        <tr>
+                            <td>Over Weight</td>
+                            <td>25.0 – 29.9</td>
+                        </tr>
+                        <tr>
+                            <td>Obesity</td>
+                            <td>30.0 or above</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2"></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
         </section>
     </main>
     <footer>
